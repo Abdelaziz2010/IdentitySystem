@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\Video\9-MVC\source 2\Project\IdentitySystem\IdentitySystem
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/Video/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Video/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Courses/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
