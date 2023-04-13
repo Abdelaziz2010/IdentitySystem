@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> signInManager
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -28,7 +30,19 @@
                     </ul>
                     <ul class="navbar-nav m1-auto">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Register">Register</a>
+                            @if(signInManager.IsSignedIn(User))
+                            {
+                                <form method="post" asp-action="Logout" asp-controller="Account">
+                                    <button type="submit" class="btn btn-outline-danger" class="nav-link btn-link">
+                                        Logout @User?.Identity?.Name
+                                    </button>
+                                </form>
+                            }
+                            else
+                            {
+                                <a class="btn btn-primary" class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Register">Register</a>
+                                <a class="btn btn-success" class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
+                            }
                         </li>
                     </ul>
                 </div>

@@ -15,7 +15,13 @@ namespace IdentitySystem
            
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-            builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<IdentitySystemContext>();
+            builder.Services.AddIdentity<IdentityUser, IdentityRole>(option =>
+            {
+                option.Password.RequireDigit = false;
+                option.Password.RequireLowercase = false;
+                option.Password.RequireUppercase = false;
+                option.Password.RequireNonAlphanumeric = false;
+            }).AddEntityFrameworkStores<IdentitySystemContext>();
            
             
             var app = builder.Build();
