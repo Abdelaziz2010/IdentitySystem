@@ -1,5 +1,5 @@
 ﻿@using Microsoft.AspNetCore.Identity
-@inject SignInManager<IdentityUser> signInManager
+@inject SignInManager<AppUser> signInManager
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,29 +11,39 @@
     <link rel="stylesheet" href="~/IdentitySystem.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
+    <header style="position:sticky;top:0;">
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">IdentitySystem</a>
+                <a style="margin-left: 5rem; margin-right: 2rem" class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><h4>IdentitySystem</h4></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                       
+                        <li class="nav-item" style="margin-right:1rem">
+                            <a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                       
+                        <li class="nav-item" style="margin-right:1rem">
+                            <a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
+
+                        <li class="nav-item" style="margin-right:1rem">
+                            <a class="btn btn-primary" asp-area="" asp-controller="Courses" asp-action="Index">Courses</a>
+                        </li>
+                        <li class="nav-item" style="margin-right:1rem">
+                            <a class="btn btn-primary" asp-area="" asp-controller="Administration" asp-action="ListRoles">Administration</a>
+                        </li>
+
                     </ul>
-                    <ul class="navbar-nav m1-auto">
+                    <ul style="margin-right:2rem" class="navbar-nav m1-auto">
                         <li class="nav-item">
                             @if(signInManager.IsSignedIn(User))
                             {
                                 <form method="post" asp-action="Logout" asp-controller="Account">
-                                    <button type="submit" class="btn btn-outline-danger" class="nav-link btn-link">
+                                    <button type="submit" class="btn btn-danger" class="nav-link btn-link">
                                         Logout @User?.Identity?.Name
                                     </button>
                                 </form>

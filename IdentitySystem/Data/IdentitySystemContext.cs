@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using IdentitySystem.Models;
 namespace IdentitySystem.Data
 {
-    public class IdentitySystemContext : IdentityDbContext
+    public class IdentitySystemContext : IdentityDbContext<AppUser>
     {
         public IdentitySystemContext (DbContextOptions<IdentitySystemContext> options)
             : base(options)

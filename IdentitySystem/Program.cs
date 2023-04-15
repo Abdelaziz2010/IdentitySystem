@@ -2,6 +2,9 @@
 using Microsoft.Extensions.DependencyInjection;
 using IdentitySystem.Data;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.Authorization;
+using IdentitySystem.Models;
 
 namespace IdentitySystem
 {
@@ -14,8 +17,12 @@ namespace IdentitySystem
                 options.UseSqlServer(builder.Configuration.GetConnectionString("IdentitySystemContext") ?? throw new InvalidOperationException("Connection string 'IdentitySystemContext' not found.")));
            
             // Add services to the container.
-            builder.Services.AddControllersWithViews();
-            builder.Services.AddIdentity<IdentityUser, IdentityRole>(option =>
+            builder.Services.AddControllersWithViews(config =>
+            {
+                var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
+                config.Filters.Add(new AuthorizeFilter(policy));
+            });
+            builder.Services.AddIdentity<AppUser, IdentityRole>(option =>
             {
                 option.Password.RequireDigit = false;
                 option.Password.RequireLowercase = false;
@@ -41,7 +48,7 @@ namespace IdentitySystem
 
             app.UseAuthentication();
 
-            //app.UseAuthorization();
+            app.UseAuthorization();
 
 
             app.MapControllerRoute(

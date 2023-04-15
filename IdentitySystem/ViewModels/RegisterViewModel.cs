@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using IdentitySystem.Helpers;
+using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
 namespace IdentitySystem.ViewModels
 {
     public class RegisterViewModel
@@ -7,6 +9,8 @@ namespace IdentitySystem.ViewModels
         [Required]
         [EmailAddress]
         [Display(Name = "Email")]
+        [ValidateDomainName(allowedDomainName:"gmail.com",ErrorMessage = "Domain Name Must be gmail.com")]
+        [Remote(action:"IsEmailExist" , controller:"Account")]
         public string Email { get; set; }
 
         [Required]
@@ -19,5 +23,9 @@ namespace IdentitySystem.ViewModels
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        [Required]
+        public string Country { get; set; }
+
     }
 }
