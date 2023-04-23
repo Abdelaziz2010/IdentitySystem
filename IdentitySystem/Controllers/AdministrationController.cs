@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Data;
+using IdentitySystem.DTOS;
 
 namespace IdentitySystem.Controllers
 {
@@ -35,14 +36,13 @@ namespace IdentitySystem.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateRole(RoleViewModel roleModel)
+        public async Task<IActionResult> CreateRole(RoleDto dto)
         {
             if (ModelState.IsValid)
             {
                 IdentityRole role = new IdentityRole()
                 {
-                    //Id = roleModel.Id,
-                    Name = roleModel.RoleName
+                    Name = dto.Name
                 };
 
                 IdentityResult result = await roleManager.CreateAsync(role);
@@ -59,7 +59,7 @@ namespace IdentitySystem.Controllers
                     }
                 }
             }
-            return View(roleModel);
+            return View(dto);
         }
 
         public IActionResult ListRoles()
