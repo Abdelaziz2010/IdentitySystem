@@ -9,85 +9,89 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = IdentitySystem
 build_property.RootNamespace = IdentitySystem
-build_property.ProjectDir = E:\Video\9-MVC\source 2\Project\IdentitySystem\IdentitySystem\
+build_property.ProjectDir = E:\Programming\Dot Net\9-MVC\source 2\Project\IdentitySystem\IdentitySystem\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\Video\9-MVC\source 2\Project\IdentitySystem\IdentitySystem
+build_property.MSBuildProjectDirectory = E:\Programming\Dot Net\9-MVC\source 2\Project\IdentitySystem\IdentitySystem
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 6.0
+build_property.EnableCodeStyleSeverity = 
 
-[E:/Video/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Account/Login.cshtml]
+[E:/Programming/Dot Net/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Video/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Account/Register.cshtml]
+[E:/Programming/Dot Net/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Video/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Administration/CreateRole.cshtml]
+[E:/Programming/Dot Net/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Administration/CreateRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cQ3JlYXRlUm9sZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Video/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Administration/EditRole.cshtml]
+[E:/Programming/Dot Net/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Administration/EditRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cRWRpdFJvbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Video/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Administration/EditUserInRole.cshtml]
+[E:/Programming/Dot Net/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Administration/EditUserInRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cRWRpdFVzZXJJblJvbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Video/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Administration/ListRoles.cshtml]
+[E:/Programming/Dot Net/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Administration/ListRoles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cTGlzdFJvbGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Video/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Courses/Create.cshtml]
+[E:/Programming/Dot Net/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Courses/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Video/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Courses/Delete.cshtml]
+[E:/Programming/Dot Net/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Courses/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Video/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Courses/Details.cshtml]
+[E:/Programming/Dot Net/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Courses/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Video/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Courses/Edit.cshtml]
+[E:/Programming/Dot Net/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Courses/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Video/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Courses/Index.cshtml]
+[E:/Programming/Dot Net/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Courses/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Video/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Home/Index.cshtml]
+[E:/Programming/Dot Net/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Video/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Home/Privacy.cshtml]
+[E:/Programming/Dot Net/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Video/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/NotFound.cshtml]
+[E:/Programming/Dot Net/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/NotFound.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90Rm91bmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Video/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Shared/Error.cshtml]
+[E:/Programming/Dot Net/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Video/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/Programming/Dot Net/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Video/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/_ViewImports.cshtml]
+[E:/Programming/Dot Net/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Video/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/_ViewStart.cshtml]
+[E:/Programming/Dot Net/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Video/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Shared/_Layout.cshtml]
+[E:/Programming/Dot Net/9-MVC/source 2/Project/IdentitySystem/IdentitySystem/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-nktbdqn8qn
